@@ -1,0 +1,7 @@
+#!/system/bin/sh
+
+su
+stop mpdecision
+
+echo "interactive" > /sys/devices/system/cpu/cpu0/scaling_governor
+echo "deadline" > /sys/block/mmcblk0/queue/scheduler
