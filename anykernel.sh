@@ -3,11 +3,11 @@
 
 ## AnyKernel setup
 # EDIFY properties
-kernel.string=Phantom Kernel
+kernel.string=Stuxnet Kernel
 do.initd=0
 do.devicecheck=0
 do.cleanup=1
-device.name1=taoshan
+device.name1=cancro
 device.name2=C2104
 device.name3=C2105
 device.name4=Xperia L
